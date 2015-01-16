@@ -170,6 +170,7 @@ textarea {
 button,
 input {
   line-height: normal;
+  margin-top:10px;
 }
 
 button,
@@ -332,6 +333,9 @@ input,
 select[multiple],
 textarea {
   background-image: none;
+}
+button{
+    width:20px;
 }
 
 a {
