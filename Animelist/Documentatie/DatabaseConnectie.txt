@@ -1,0 +1,11 @@
+VPN REQUIRED :  VDI.fhict.nl 
+
+INFO:
+
+   <add
+  name="MyConnectionString"
+  connectionString="Data Source=//fhictora01.fhict.local:1521/fhictora;
+                      User ID=dbi262941;
+                      Password=R2aLj9v1os"
+  providerName="System.Data.OracleClient"
+  />
