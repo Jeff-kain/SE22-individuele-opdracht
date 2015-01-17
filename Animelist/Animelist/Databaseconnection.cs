@@ -25,7 +25,11 @@ namespace Animelist
         public Databaseconnection()
         {
             conn = new OracleConnection();
-            this.conn.ConnectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+            string user = "SYSTEM";
+            string pw = "Heartless275";
+            conn.ConnectionString = "User Id=" + user + ";Password=" + pw + ";Data Source=" + " //localhost:1521/xe" + ";";
+
+            //this.conn.ConnectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
         }
         /// <summary>
         /// Create account with email and password 
@@ -173,6 +177,38 @@ namespace Animelist
                    }
                }
            }
+       }
+
+       public List<string> Search(string searchterm)
+       {
+           List<string> searchresults = new List<string>();
+           try
+           {
+               string queryString = "select Animename from DB21_ANIME where upper(Animename) LIKE upper(:un)";
+
+               OracleCommand cmd = new OracleCommand(queryString, this.conn);
+               cmd.Parameters.Add(":un", OracleDbType.NVarchar2).Value = "%" + searchterm + "%";
+
+
+               this.conn.Open();
+
+               using (OracleDataReader reader = cmd.ExecuteReader())
+               {
+                   while (reader.Read())
+                   {
+                       searchresults.Add(reader.GetString(0));
+                   }
+               }
+           }
+           catch (OracleException exc)
+           {
+               Console.Write(exc);
+           }
+           finally
+           {
+               this.conn.Close();
+           }
+           return searchresults;
        }
     }
 }

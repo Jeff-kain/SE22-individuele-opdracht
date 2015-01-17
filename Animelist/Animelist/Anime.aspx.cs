@@ -17,9 +17,19 @@ namespace Animelist
     {
         
         Databaseconnection db = new Databaseconnection();
+
+        /// <summary>
+        /// TODO The category.
+        /// </summary>
+        private List<string> Searchresult = new List<string>();
+
+        /// <summary>
+        /// TODO The username.
+        /// </summary>
+        public string searchterm = string.Empty;
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+          searchterm = (string)(Session["searchterm"]);
         }
 
         /// <summary>
@@ -48,10 +58,38 @@ namespace Animelist
                 }
             }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+                Session["searchterm"] = TextBox3.Text;
+                Searchresult = db.Search(TextBox3.Text);
+
+                foreach (string fil in Searchresult)
+                {
+                    fileslist.Items.Add(fil);
+                }
+            }
+
 
         public string Getemail(String email)
         {
             return email;
         }
-    }
+        protected void fileslist_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+            if(!this.IsPostBack)
+                if (Session["searchterm"] != null)
+                {
+                    Searchresult = db.Search(searchterm);
+
+                    foreach (string fil in Searchresult)
+                    {
+                        fileslist.Items.Add(fil);
+                    }
+                }
+            string selecteditem = fileslist.SelectedValue.ToString();
+            Response.Redirect("~/"+selecteditem+".aspx");
+            }
+
+        }
 }

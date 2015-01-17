@@ -5,6 +5,14 @@
         <h1>Animelist</h1>
         <p class="lead">Below you will find a list of anime's available</p>
     </div>
+
+    <asp:TextBox ID="TextBox3" runat="server" Width="107px"></asp:TextBox>
+    &nbsp;&nbsp;&nbsp;
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Search" />
+    <div >
+    <asp:ListBox ID="fileslist" runat="server" AutoPostBack="true" Height="254px" Width="311px" OnSelectedIndexChanged="fileslist_SelectedIndexChanged1"></asp:ListBox>
+    &nbsp;&nbsp;
+    </div>
     <table>
         <tr>
             <td class="normal_header" colspan="1" style="height: 24px; width: 1030px;">Anime</td>

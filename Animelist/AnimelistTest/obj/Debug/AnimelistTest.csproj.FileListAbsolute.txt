@@ -31,3 +31,36 @@ C:\Users\jeffrey\documents\visual studio 2013\Projects\Animelist\AnimelistTest\b
 C:\Users\jeffrey\documents\visual studio 2013\Projects\Animelist\AnimelistTest\obj\Debug\AnimelistTest.csprojResolveAssemblyReference.cache
 C:\Users\jeffrey\documents\visual studio 2013\Projects\Animelist\AnimelistTest\obj\Debug\AnimelistTest.dll
 C:\Users\jeffrey\documents\visual studio 2013\Projects\Animelist\AnimelistTest\obj\Debug\AnimelistTest.pdb
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\obj\Debug\AnimelistTest.csprojResolveAssemblyReference.cache
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\obj\Debug\AnimelistTest.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\obj\Debug\AnimelistTest.pdb
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\AnimelistTest.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\AnimelistTest.pdb
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Animelist.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Oracle.DataAccess.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\System.Web.Optimization.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.Owin.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Owin.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\EntityFramework.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Animelist.pdb
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\System.Web.Optimization.xml
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.Owin.xml
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\EntityFramework.xml
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jeffrey\Documents\FHICT\P4\Software\SE22-individuele-opdracht\Animelist\AnimelistTest\bin\Debug\Newtonsoft.Json.xml

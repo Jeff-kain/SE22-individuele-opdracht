@@ -75,6 +75,8 @@ namespace Animelist
         {
             Context.GetOwinContext().Authentication.SignOut();
         }
+
+       
     }
 
 }
