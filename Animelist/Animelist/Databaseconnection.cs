@@ -25,9 +25,13 @@ namespace Animelist
         public Databaseconnection()
         {
             conn = new OracleConnection();
-            string user = "SYSTEM";
-            string pw = "Heartless275";
-            conn.ConnectionString = "User Id=" + user + ";Password=" + pw + ";Data Source=" + " //localhost:1521/xe" + ";";
+            //string user = "SYSTEM";
+            //string pw = "Heartless275";
+            //conn.ConnectionString = "User Id=" + user + ";Password=" + pw + ";Data Source=" + " //localhost:1521/xe" + ";";
+
+            string user = "dbi262941";
+            string pw = "R2aLj9v1os";
+            conn.ConnectionString = "User Id=" + user + ";Password=" + pw + ";Data Source=" + " //fhictora01.fhict.local:1521/fhictora" + ";";
 
             //this.conn.ConnectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
         }
